@@ -1,0 +1,24 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "This repository contains the open-source uptime monitor and status page for [moodysanalytics](https://moodysanalytics.github.io/ps-status), powered by [Upptime](https://github.com/upptime/upptime).",
+  "main": "index.js",
+  "scripts": {
+    "ci": "npm ci",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodysanalytics/ps-status.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moodysanalytics/ps-status/issues"
+  },
+  "homepage": "https://github.com/moodysanalytics/ps-status#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
+  }
+}
